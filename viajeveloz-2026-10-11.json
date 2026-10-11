@@ -1,0 +1,43 @@
+{
+  "choferes": [
+    {
+      "id": "mv3xnfmb57lp6",
+      "nombre": "Alejandro",
+      "apellidos": "Oquendo",
+      "idNum": "00041965560",
+      "municipio": "Caimito",
+      "vehiculo": "Auto"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "mv3xmuowgoktl",
+      "nombre": "Rachel",
+      "apellidos": "Labrada",
+      "idNum": "01100266478"
+    }
+  ],
+  "viajes": [
+    {
+      "id": "mv3xozjkb4jo9",
+      "clienteId": "mv3xmuowgoktl",
+      "choferId": "mv3xnfmb57lp6",
+      "recogida": "Ave 41 /36 y 38",
+      "destino": "Mercado",
+      "distancia": 25.5,
+      "distanciaTotal": 51,
+      "tarifaKm": 75,
+      "costo": 3825,
+      "porcentaje": 573.75,
+      "fecha": 1791729780000,
+      "lat1": null,
+      "lng1": null,
+      "lat2": null,
+      "lng2": null
+    }
+  ],
+  "config": {
+    "tarifaKm": 1.5,
+    "moneda": "$"
+  }
+}
